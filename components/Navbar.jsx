@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Navbar.module.css";
 import {useSelector} from 'react-redux';
-import  Link  from "next/Link";
+import  Link  from "next/link";
 
 const Navbar = () => {
 
