@@ -6,7 +6,7 @@ import {
     PayPalScriptProvider,
     PayPalButtons,
     usePayPalScriptReducer
-} from "@paypal/react-paypal-js";
+} from "paypal/react-paypal-js";
 import OrderDetails from "../components/OrderDetail";
 import {useRouter} from 'next/router';
 import { reset } from "../redux/cartSlice";
