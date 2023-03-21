@@ -11,7 +11,7 @@ const Index = ({orders, products}) => {
 
     const handleDelete = async (id) =>{
         try{
-            const res = await axios.delete('https://cosmic-pizza-5rra5eo69-daniel-spec16.vercel.app/api/products/'+id)
+            const res = await axios.delete('https://cosmic-pizza.vercel.app/api/products/'+id)
             setPizzaList(pizzaList.filter((pizza) => pizza._id !== id))
         } catch (err){
             console.log(err)
@@ -24,7 +24,7 @@ const Index = ({orders, products}) => {
         const currentStatus = item.status;
 
         try{
-            const res = await axios.put('https://cosmic-pizza-5rra5eo69-daniel-spec16.vercel.app/api/orders/'+id, {status: currentStatus+1})
+            const res = await axios.put('https://cosmic-pizza.vercel.app/api/orders/'+id, {status: currentStatus+1})
             setOrderList([
                 res.data,
                 ...orderList.filter((order)=>order._id !== id),
@@ -120,8 +120,8 @@ export const getServerSideProps = async (ctx)=>{
         }
     }
 
-    const productRes = await axios.get('https://cosmic-pizza-5rra5eo69-daniel-spec16.vercel.app/api/products')
-    const orderRes = await axios.get('https://cosmic-pizza-5rra5eo69-daniel-spec16.vercel.app/api/orders')
+    const productRes = await axios.get('https://cosmic-pizza.vercel.app/api/products')
+    const orderRes = await axios.get('https://cosmic-pizza.vercel.app/api/orders')
 
     return{
         props:{
