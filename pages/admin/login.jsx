@@ -13,7 +13,7 @@ const Login = () => {
   const handleClick = async () => {
     try{
         console.log({username, password})
-        await axios.post('http://localhost:3000/api/login', {
+        await axios.post('https://cosmic-pizza-5rra5eo69-daniel-spec16.vercel.app/api/login', {
             username,
             password,
         })

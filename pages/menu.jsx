@@ -23,7 +23,7 @@ export const getServerSideProps = async (ctx)=> {
         admin = true;
     }
     
-    const res = await axios.get('http://localhost:3000/api/products');
+    const res = await axios.get('https://cosmic-pizza-5rra5eo69-daniel-spec16.vercel.app/api/products');
     
     return (
         {

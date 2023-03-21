@@ -45,7 +45,7 @@ const Add = ({setClose}) => {
                 img: url,
             }
 
-            await axios.post('http://localhost:3000/api/products', newProduct)
+            await axios.post('https://cosmic-pizza-5rra5eo69-daniel-spec16.vercel.app/api/products', newProduct)
             setClose(true);
         } catch (err) {
             console.log(err)
