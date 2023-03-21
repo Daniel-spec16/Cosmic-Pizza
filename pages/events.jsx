@@ -9,7 +9,7 @@ const events = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>Temporary closure of Cross-Galactic Events</h1>
       <p className={styles.desc}>
-        Jupiter's Obelisk Plague has caused massive pandemic across all first-order living organisms.
+        Jupiter Obelisk Plague has caused massive pandemic across all first-order living organisms.
         We strive for keeping our customers alive to continue providing top quality planetary pizza,
         that is why we decided to temporarily stop all cross-galactic food events.
         We appreciate your patience and we will provide any news as soon as we can. 

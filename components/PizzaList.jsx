@@ -9,7 +9,7 @@ const PizzaList = ({pizzaList}) => {
         We dedicate all our pride and passion into making the most delicious
         pizza in the galaxy possible. Only premium grade planetary ingredients used,
         no artificial meteoritic flavors is favoured at our restaurant.
-        That is what we believe in, cosmic pizza's authentic taste is our top concern!
+        That is what we believe in, cosmic pizza authentic taste is our top concern!
       
       </p>
       

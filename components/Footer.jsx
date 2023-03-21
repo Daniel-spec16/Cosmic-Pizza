@@ -16,17 +16,17 @@ const Footer = () => {
         <div className={styles.card}>
           <h1 className={styles.title}>FIND INTER-METEROID TELEPORT POINTS TO OUR RESTAURANT</h1>
           <p className={styles.text}>
-            Meteorite Ring 'Afina'
+            Meteorite Ring Afina
             <br /> Rocket Square #17
             <br /> -6028671010, -8897563712
           </p>
           <p className={styles.text}>
-            Meteorite Ring 'Hermes'
+            Meteorite Ring Hermes
             <br /> Rocket docking #12
             <br /> 6028679081, -875638365738
           </p>
           <p className={styles.text}>
-            Meteorite Ring 'Zeus'
+            Meteorite Ring Zeus
             <br /> Rocket Re-Fuel Station
             <br /> 6028678876, 90574563946
           </p>
